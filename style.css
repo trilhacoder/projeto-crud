@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    color: #323232;
+}
+
+.container {
+    margin: 0 20%;
+}
+
+.headerCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.imagemDoUsuario {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #204BCF;
+}
+
+.formularioCadastroUsuario {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.formularioCadastroUsuario input {
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #D8D8D8;
+    padding: 5px;
+    width: 100%;
+}
+
+.formularioCadastroUsuario input:hover,
+.formularioCadastroUsuario input:focus {
+    border: 2px solid #204BCF;
+    outline: none;
+}
+
+.formularioCadastroUsuario button img {
+    width: 50px;
+    height: 50px;
+}
+
+.formularioCadastroUsuario button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.formularioCadastroUsuario .entrada {
+    width: 100%;
+}
+
+
+.campoObrigatorio, .mensagensDeErro {
+    color: red;
+    display: none;
+}
