@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="headerCadastro">
+            <img class="imagemDoUsuario" src="img/user.png" alt="Tela de cadastro de usuários">
+            <h1>Cadastro de Usuários</h1>
+        </div>
+        <p id="mensagensDeErro" class="mensagensDeErro"></p>
+        <form class="formularioCadastroUsuario" id="formularioCadastroUsuario">
+            <div class="entrada">
+                <label for="nome">* Nome</label><span class="campoObrigatorio" id="campoObrigatorio"> (Campo obrigatório)</span>
+                <input name="nome" placeholder="Insira o nome" id="nome" type="text">
+            </div>
+            <div class="entrada">
+                <label for="email">E-mail</label>
+                <input name="ëmail" placeholder="Insira o e-mail" id="email" type="text">
+            </div>
+    
+            <button>
+                <img src="img/create.png" alt="Criar usuário">
+            </button>
+        </form>
+        <table class="tabelaUsuarios" id="tabelaUsuarios">
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Opções</th>
+            </tr>
+        </table>
+    </div>    
+</body>
+</html>
