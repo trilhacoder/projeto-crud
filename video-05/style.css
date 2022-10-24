@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFB;
+    color: #323232;
+}
+
+.container {
+    margin: 0 20%;
+}
+
+.headerCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.imagemDoUsuario {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #204BCF;
+}
+
+.campoObrigatorio, .mensagensDeErro {
+    color: red;
+    display: none;
+}
+
+.campoObrigatorioExibir, .mensagensDeErroExibir {
+    display: inline;
+}

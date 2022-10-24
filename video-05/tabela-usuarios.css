@@ -1,0 +1,36 @@
+.tabelaUsuarios button img {
+    width: 30px;
+    height: 30px;
+}
+
+.tabelaUsuarios button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.tabelaUsuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.tabelaUsuarios th {
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabelaUsuarios tr {
+    height: 60px;
+    border: none;
+    border-top: 2px solid #D8D8D8;    
+}
+
+.tabelaUsuarios tr:nth-child(2n) {
+    background-color: #F6F6F6;
+}
+
+.tabelaUsuarios .editandoCliente {
+    border: 3px dashed #000000;
+}
